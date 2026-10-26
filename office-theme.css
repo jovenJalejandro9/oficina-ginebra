@@ -34,6 +34,6 @@ dialog:has(.office-full-photo) .modal-close{position:absolute;right:0;top:0;back
 
 /* Respetar la proporción de cada foto, sin rellenos laterales. */
 .hero-image{width:min(100%,calc(43vh * 4 / 3));height:auto;aspect-ratio:4/3;justify-self:end;background:transparent}.hero-image img{height:auto;width:100%;object-fit:cover}
-.gallery-side{grid-template-columns:16fr 9fr;align-items:start}.gallery-side .photo-button{height:auto;aspect-ratio:auto;background:transparent}.gallery-side img{height:auto;width:100%;background:transparent}.office-full-photo{background:var(--paper)}
+.gallery-side{grid-template-columns:1fr 1fr;align-items:start}.gallery-side .photo-button{height:auto;aspect-ratio:auto;background:transparent}.gallery-side img{height:auto;width:100%;background:transparent}.office-full-photo{background:var(--paper)}
 .distribution-summary{margin-top:28px;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.distribution-summary h3{font-size:18px;margin:0 0 12px}.distribution-summary p{display:flex;gap:12px 24px;flex-wrap:wrap;font-size:14px;margin:0;line-height:1.6}.distribution-summary strong{font-weight:500}.distribution-summary span{color:#62675f}
 @media(max-width:700px){.hero-image{width:min(100%,340px);justify-self:center;height:auto}.gallery-side{grid-template-columns:1fr}.gallery-side .photo-button[data-photo="2"]{aspect-ratio:auto}.distribution-summary p{gap:8px 20px;font-size:13px}}
